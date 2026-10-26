@@ -1,0 +1,40 @@
+.container{
+    display: flex;
+    justify-content: space-between;
+    font-family: sans-serif;
+    align-items: center;
+    max-width: 1200px;
+    margin: auto;
+}
+.item{
+    display: flex;
+    gap: 30px;
+}
+.fa-bars{
+    display: none !important;
+}
+.str1{
+    width: 1200px;
+    max-width: 1200px;
+    margin: auto;
+    display: flex;
+    justify-content: center;
+    
+    
+}
+
+
+
+
+
+
+@media (max-width: 500px){
+    .fa-bars{
+        display: block !important;
+        font-size: 20px;
+    }
+    .item{
+        display: none;
+    }
+
+}
